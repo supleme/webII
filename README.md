@@ -8,14 +8,14 @@ GitHub Pages:
 
 Caixas de Diálogo
 
-- [] prompt
-- [] alert
-- [] confirm
+- [ ] prompt
+- [ ] alert
+- [ ] confirm
 
 Temporizadores
 
-- [] setInterval
-- [] setTimeout
+- [ ] setInterval
+- [ ] setTimeout
 
 Funções
 
@@ -23,10 +23,10 @@ Funções
 - [ ] Função anônima sem argumento
 - [ ] Função anônima com retorno
 - [ ] Função auto-executável
-- [] Função com nome
-- [] Função aninhada/local - declarar uma função dentro de outra
-- [] Passagem de uma função como parâmetro
-- [] Função Flecha - Arrow Function
+- [ ] Função com nome
+- [ ] Função aninhada/local - declarar uma função dentro de outra
+- [ ] Passagem de uma função como parâmetro
+- [ ] Função Flecha - Arrow Function
 
 Eventos
 
@@ -39,8 +39,8 @@ Eventos
 
 Acesso aos elementos DOM do HTML
 
-- [] Via referência DOM pelo id do elemento HTML
-- [] Via getElementByID()
+- [ ] Via referência DOM pelo id do elemento HTML
+- [ ] Via getElementByID()
 - [ ] Via getElementsByName()
 - [ ] Via getElementsByTagName()
 - [ ] Via seletores CSS usados na função querySelector() ou querySelectorAll()
