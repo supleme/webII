@@ -7,10 +7,14 @@ form.addEventListener('submit', (e) =>{
   let userValue = user.value;
   let passwordValue = password.value;
 
-  validaDado()
+  // validaDado();
 
   colocarLocal(userValue, passwordValue);
   alertify.success('Logado com sucesso');
+  setInterval(function(){
+    (window.location.href = "http://127.0.0.1:5500/home/home.html"), 10000;
+  })
+  
 })
 
 function colocarLocal(name, password){
@@ -22,7 +26,6 @@ function varrerUsers(name, password){
   localStorage.getItem(name, password)
 }
 
-
-function validaDado(){
-  location = cadastrar.html
-}
+// function validaDado(){
+//   location = cadastrar.html
+// }
