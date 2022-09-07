@@ -9,21 +9,21 @@ GitHub Pages:
 Caixas de Diálogo
 
 - [ ] prompt
-- [ ] alert
+- [X] alert
 - [ ] confirm
 
 Temporizadores
 
-- [ ] setInterval
+- [X] setInterval
 - [ ] setTimeout
 
 Funções
 
-- [ ] Função anônima com argumento
-- [ ] Função anônima sem argumento
-- [ ] Função anônima com retorno
+- [X] Função anônima com argumento
+- [X] Função anônima sem argumento
+- [X] Função anônima com retorno
 - [ ] Função auto-executável
-- [ ] Função com nome
+- [X] Função com nome
 - [ ] Função aninhada/local - declarar uma função dentro de outra
 - [ ] Passagem de uma função como parâmetro
 - [ ] Função Flecha - Arrow Function
@@ -33,23 +33,23 @@ Eventos
 - [ ] Evento de carregamento do documento - onload
 - [ ] Evento de movimento do mouse
 - [ ] Evento de teclado - usar charCode ou keyCode
-- [ ] Eventos de formulário - onfocus e onblur
+- [X] Eventos de formulário - onfocus e onblur
 - [ ] Imprimir alguma propriedade do objeto event recebido como parâmetro
 - [ ] Propagação de eventos no modelo bolha (usar target e currentTarget, ou seja, disparar o evento em um elemento filho e capturar em um elemento pai) 
 
 Acesso aos elementos DOM do HTML
 
 - [ ] Via referência DOM pelo id do elemento HTML
-- [ ] Via getElementByID()
+- [X] Via getElementByID()
 - [ ] Via getElementsByName()
 - [ ] Via getElementsByTagName()
-- [ ] Via seletores CSS usados na função querySelector() ou querySelectorAll()
+- [X] Via seletores CSS usados na função querySelector() ou querySelectorAll()
 
 Tratadores de Evento
 
 - [ ] Especificar o tratador de evento inline
 - [ ] Especificar o tratador de evento no carregamento da página HTML no modo tradicional - no onload
-- [ ] Especificar o tratador de evento no carregamento da página HTML com a função addEventListener - no onload
+- [X] Especificar o tratador de evento no carregamento da página HTML com a função addEventListener - no onload
 - [ ] Usar o operador this em funções tratadoras de eventos.
 
 Objetos Nativos
@@ -57,7 +57,7 @@ Objetos Nativos
 - [ ] Usar pelo menos 3 métodos de manipulação de array
 - [ ] Usar laço de repetição (for..in ou for..of ou forEach)
 - [ ] Usar pelo menos 3 métodos para manipulação de string
-- [ ] String Template
+- [X] String Template
 
 Objetos
 
@@ -77,12 +77,12 @@ Qualidade do código
 
 Formulário
 
-- [ ] Validação de formulário com onsubmit usando os métodos tradicionais
+- [X] Validação de formulário com onsubmit usando os métodos tradicionais
 - [ ] Validação de formulário com HTML5 API
-- [ ] Customizar as mensagens nos balões de mensagem
-- [ ] Usar os atributos de validação dos inputs
+- [X] Customizar as mensagens nos balões de mensagem
+- [X] Usar os atributos de validação dos inputs
 - [ ] Usar expressões regulares
-- [ ] Ler e escrever em elementos input com a propriedade value
+- [X] Ler e escrever em elementos input com a propriedade value
 - [ ] Alterar o conteúdo de elementos div ou p com a propriedade innerHTML ou textContent
 - [ ] Manipulação de elemento de listagem, como checkbox, radio ou select
 - [ ] Acesso aos elementos de um formulário via hierarquia (caminho) de objetos, ou seja, array forms e elements
@@ -100,9 +100,9 @@ jQuery
 
 Web Storage
 
-- [ ] LocalStorage ou SessionStorage
-- [ ] Leitura e escrita de dados simples
-- [ ] Leitura e escrita de JSON
+- [X] LocalStorage ou SessionStorage
+- [X] Leitura e escrita de dados simples
+- [X] Leitura e escrita de JSON
 
 Ajax com Backend
 - [ ] Implementação funcional (basta fazer funcionar uma requisição) do backend em ExpressJS na plataforma Node e requisições AJAX.
