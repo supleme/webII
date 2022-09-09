@@ -16,7 +16,7 @@
       <form id="login_form" name="login_form" style="padding: 15px;">
         <input type="text" id="user" class="fadeIn second" name="user" placeholder="Usuario">
         <input type="password" id="password" class="fadeIn second" name="login" placeholder="Senha">
-        <input type="submit" class="fadeIn fourth" onclick="validaDado()"value="Entrar">
+        <input type="submit" class="fadeIn fourth" onclick="valorPadrao()" value="Entrar">
       </form>
       <div id="formFooter">
         <a class="underlineHover" href="cadastrar.html">Cadastrar?</a>
@@ -25,16 +25,6 @@
   </div>
 </body>
 <script src="js/login.js"></script>
-<script>
-  function aviso(){
-    if(1 < 2){
-      alertify
-    .alert("Status login","Sucesso", function(){
-      });
-  
-    }
-  }
-</script>
 <!-- JavaScript -->
 <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
 
@@ -47,9 +37,7 @@
 <!-- Bootstrap theme -->
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>
 
-<!-- 
-    RTL version
--->
+<!-- RTL version -->
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.rtl.min.css"/>
 <!-- Default theme -->
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.rtl.min.css"/>
