@@ -22,7 +22,7 @@ Funções
 - [X] Função anônima com argumento
 - [X] Função anônima sem argumento
 - [X] Função anônima com retorno
-- [ ] Função auto-executável
+- [X] Função auto-executável
 - [X] Função com nome
 - [ ] Função aninhada/local - declarar uma função dentro de outra
 - [ ] Passagem de uma função como parâmetro
@@ -31,7 +31,7 @@ Funções
 Eventos
 
 - [ ] Evento de carregamento do documento - onload
-- [ ] Evento de movimento do mouse
+- [X] Evento de movimento do mouse
 - [ ] Evento de teclado - usar charCode ou keyCode
 - [X] Eventos de formulário - onfocus e onblur
 - [ ] Imprimir alguma propriedade do objeto event recebido como parâmetro
@@ -39,9 +39,9 @@ Eventos
 
 Acesso aos elementos DOM do HTML
 
-- [ ] Via referência DOM pelo id do elemento HTML
+- [X] Via referência DOM pelo id do elemento HTML
 - [X] Via getElementByID()
-- [ ] Via getElementsByName()
+- [X] Via getElementsByName()
 - [ ] Via getElementsByTagName()
 - [X] Via seletores CSS usados na função querySelector() ou querySelectorAll()
 
