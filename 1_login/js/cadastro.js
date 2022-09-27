@@ -4,15 +4,18 @@ const password = document.querySelector('#password');
 
 form.addEventListener('submit', (e) =>{
   e.preventDefault();
-  let userValue = user.value;
-  let passwordValue = password.value;
+  let confirma = confirm("Tem certeza que seus dados estao certos?")
+  if(confirma === true){
+    let userValue = user.value;
+    let passwordValue = password.value;
 
-  if(validaDado(userValue, passwordValue)){
-    colocarLocal(userValue, passwordValue);
-    alertify.success('Logado com sucesso');
-    direcionamento();
-  } else{
-    alertify.error('Dados Inválidos')
+    if(validaDado(userValue, passwordValue)){
+      colocarLocal(userValue, passwordValue);
+      alertify.success('Logado com sucesso');
+      direcionamento();
+    } else{
+      alertify.error('Dados Inválidos')
+    }
   }
 // JSON.parce() para analisar uma String JSON, no cadastro usar o JSON.stringify()
 })
