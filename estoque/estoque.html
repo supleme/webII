@@ -38,48 +38,53 @@
     <div class="divURL" id="divURL">
     </div>    
   </header>
-  <main class="styleMain">
-    <table class="table caption-top" style="border: 1px solid black;">
-      <caption>
-        <h2>Estoque</h2>
-        <button class="btn btn-primary">Novo item</button>
-      </caption>
-      <thead>
-        <tr>
-          <th scope="col">#</th>
-          <th scope="col">First</th>
-          <th scope="col">Last</th>
-          <th scope="col">Handle</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>Larry</td>
-          <td>the Bird</td>
-          <td>@twitter</td>
-        </tr>
-      </tbody>
-    </table>
+  <main class="styleMain" style="display: grid;">
+    
+    <div class="cardk" style="padding: 20px">
+      <h2>Estoque</h2>
+      <div class="lineInput">
+        <label>Produto</label>
+        <input type="text" id="produto" placeholder="Nome do produto">
+      </div>
+      <div class="lineInput">
+        <label>Valor</label>
+        <input type="text" id="`Valor" placeholder="Valor do produto">
+      </div>
+        
+      <button onclick="produto.salvar()">Salvar</button>
+      <button onclick="produto.cancelar()">Cancelar</button>
+    </div>
+   
+    <div class="content">
+      <table>
+        <thead style="border: 1px solid black">
+          <th class="center">ID</th>
+          <th>Nome</th>
+          <th>Valor</th>
+          <th class="center">Ações</th>
+        </thead>
+        <tbody id="tbody" style="border: 1px solid black">
+          <tr>
+            <td class="center">1</td>
+            <td>Mesa</td>
+            <td>1900</td>
+            <td class="center">
+              <img src="img/editar.png" alt="">
+              <img src="img/deletar-lixeira.png" alt="">
+            </td>
+
+          </tr>
+        </tbody>
+      </table>
+    </div>
     
   </main>
   <footer class="footer">
     <strong>SUL LONAS Ⓡ 2022</strong>
   </footer>
 </body>
-<script src="js/estoque.js"></script>
+<script src="js/produto.js"></script>
+<script type="modules" src="js/estoque.js"></script>
 <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
