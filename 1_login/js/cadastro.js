@@ -11,7 +11,7 @@ form.addEventListener('submit', (e) =>{
 
     if(validaDado(userValue, passwordValue)){
       colocarLocal(userValue, passwordValue);
-      alertify.success('Logado com sucesso');
+      alertify.success('Cadastrado com sucesso');
       direcionamento();
     } else{
       alertify.error('Dados Inválidos')
