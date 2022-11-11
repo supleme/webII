@@ -48,15 +48,15 @@
       </div>
       <div class="lineInput">
         <label>Preço</label>
-        <input type="text" id="preco" placeholder="Valor do produto">
+        <input type="number" id="preco" placeholder="Valor do produto">
       </div>
         
-      <button onclick="produto.salvar()">Salvar</button>
+      <button onclick="produto.salvar()" id="btnSalvar">Salvar</button>
       <button onclick="produto.cancelar()">Cancelar</button>
     </div>
    
     <div class="content">
-      <table>
+      <table class="table-bordered">
         <thead style="border: 1px solid black">
           <th class="center">ID</th>
           <th>Nome</th>
