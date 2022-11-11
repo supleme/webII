@@ -72,7 +72,7 @@ Qualidade do código
 - [ ] Usar strict mode
 - [ ] Usar Module Pattern
 - [ ] Usar pasta assets e subpastas resources e libraries para organizar o código
-- [ ] Usar let ou const ao invés de var
+- [x] Usar let ou const ao invés de var
 - [x] Nomes de arquivos minúsculos e separados por hífen (dashed-case)
 
 Formulário
