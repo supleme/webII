@@ -111,7 +111,7 @@ input[type=button]:active, input[type=submit]:active, input[type=reset]:active  
   transform: scale(0.95);
 }
 
-input[type=text], input[type=password]  {
+.inputCadastro, .inputLogin  {
   background-color: #f6f6f6;
   border: none;
   color: #0d0d0d;
@@ -132,12 +132,12 @@ input[type=text], input[type=password]  {
   border-radius: 5px 5px 5px 5px;
 }
 
-input[type=text] :focus {
+.inputCadastro, .inputLogin  :focus {
   background-color: #fff;
   border-bottom: 2px solid #5fbae9;
 }
 
-input[type=text], input[type=password] :placeholder {
+.inputCadastro, .inputLogin  :placeholder {
   color: #cccccc;
 }
 
@@ -245,8 +245,6 @@ input[type=text], input[type=password] :placeholder {
   width: 100%;
 }
 
-
-
 /* OTHERS */
 
 *:focus {
@@ -255,4 +253,120 @@ input[type=text], input[type=password] :placeholder {
 
 #icon {
   width:60%;
+}
+
+
+.navbarAll{
+  padding: 8px 10px;
+}
+
+.navbarOptions{
+  font-family: 'Inter', sans-serif;
+  justify-content: end;
+}
+
+.navbar-color{
+  background-color: #D9D9D9;
+}
+
+.mainStyle{
+  margin: 0px 100px;
+  justify-content: center;
+}
+
+.headerStyle{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.divURL{
+  margin: 10px 65px 0px;
+  padding: 10px 5px;
+  border-radius: 8px;
+  border: solid 1px #cbcbcb;
+}
+
+.styleMain{
+  margin: 35px 65px;
+  width: auto;
+  background-color: white;
+  display: flex;
+  /* border-radius: 8px;
+  border: solid 1px #cbcbcb; */
+}
+
+.divProduto{
+  width: 49.5%;
+  border-radius: 8px;
+  border: solid 1px #cbcbcb;
+}
+
+.divProduto h4{
+  padding: 8px;
+}
+
+.divVazia{
+  width: 1%;
+}
+
+.footer{
+  text-align: center;
+  background-color: #D9D9D9;
+}
+
+.cardk{
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.lineInput{
+  display: grid;
+  margin-bottom: 10px;
+}
+
+#produtoAdd, #precoAdd{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button{
+  border: 0px;
+  padding: 10px;
+  outline: 0;
+  background-color: blueviolet;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: bold;
+  transition: all ease 0.3s;
+}
+
+button:hover{
+  background-color: rgb(96, 36, 151);
+}
+
+.content{
+  margin-top: 15px;
+}
+
+table{
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+table th{
+  background-color: rgb(214, 214, 214);
+}
+
+table td img{
+  width: 20px;
+}
+
+
+.center{
+  text-align: center;
 }

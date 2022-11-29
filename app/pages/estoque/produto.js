@@ -39,13 +39,13 @@ class Produto{
       td_id.classList.add('center');
       
       let imgEdit = document.createElement('img');
-      imgEdit.src = 'img/editar.png';
+      imgEdit.src = '/assets/resources/images/editar.png';
       imgEdit.setAttribute("onclick", `produto.preparaEditacao(${JSON.stringify(this.arrayProdutos[i])})`)
 
       td_acoes.appendChild(imgEdit);
 
       let imgDelete = document.createElement('img');
-      imgDelete.src = 'img/deletar-lixeira.png';
+      imgDelete.src = '/assets/resources/images/deletar-lixeira.png';
       imgDelete.setAttribute("onclick",`produto.deletar(${this.arrayProdutos[i].id})`)
 
       td_acoes.appendChild(imgDelete)
@@ -72,8 +72,8 @@ class Produto{
   preparaEditacao(dados){
     this.editId = dados.id;
 
-    document.getElementById('produto').value = dados.nomeProduto;
-    document.getElementById('preco').value = dados.preco;
+    document.getElementById('produtoAdd').value = dados.nomeProduto;
+    document.getElementById('precoAdd').value = dados.preco;
 
     document.getElementById('btnSalvar').innerText = 'Atualizar'
   }
@@ -82,8 +82,8 @@ class Produto{
     let produto = {}
 
     produto.id = this.id;
-    produto.nomeProduto = document.getElementById('produto').value;
-    produto.preco = document.getElementById('preco').value;
+    produto.nomeProduto = document.getElementById('produtoAdd').value;
+    produto.preco = document.getElementById('precoAdd').value;
     
     return produto;
   }
@@ -108,8 +108,8 @@ class Produto{
 
 
   cancelar(){
-    document.getElementById('produto').value = '';
-    document.getElementById('preco').value = '';
+    document.getElementById('produtoAdd').value = '';
+    document.getElementById('precoAdd').value = '';
 
     document.getElementById('btnSalvar').innerText = 'Salvar'
     this.editId = null;
@@ -131,4 +131,6 @@ class Produto{
   
 }
 
-var produto = new Produto();
+
+
+let produto = new Produto();
