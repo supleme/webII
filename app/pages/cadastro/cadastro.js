@@ -38,7 +38,7 @@ function validaDado(user, password){
 
 function direcionamento(){
   setInterval(function(){
-    (window.location.href = "/1_login/login.html"), 10000;
+    (window.location.href = "../login/login.html"), 10000;
   })
 }
 

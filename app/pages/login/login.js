@@ -40,7 +40,7 @@ function validaDado(user, password){
 
 function direcionamento(){
   setInterval(function(){
-    (window.location.href = "/home/home.html"), 10000;
+    (window.location.href = "../home/home.html"), 10000;
   })
 }
 
