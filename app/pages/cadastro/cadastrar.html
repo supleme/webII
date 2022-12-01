@@ -5,6 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/assets/resources/css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <title>Cadastrar</title>
 </head>
 <body>
@@ -18,12 +20,19 @@
         <label>Cadastro</label>
         <input type="text" id="user" class="fadeIn second inputCadastro" name="user" placeholder="Usuario">
         <input type="password" id="password" class="fadeIn second inputCadastro" name="login" placeholder="Senha">
+        <input type="text" id="birthday" class="fadeIn second inputCadastro" placeholder="Data de Nascimento">
         <input type="submit" class="fadeIn fourth" value="Entrar">
       </form>
     </div>
   </div>
 </body>
 <script src="cadastro.js"></script>
+<script>
+$(document).ready(function(){
+  $('#birthday').mask('00/00/0000');
+})
+
+</script>
 <!-- JavaScript -->
 <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
 
