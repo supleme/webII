@@ -3,7 +3,17 @@
   let url = window.location.href;
   let teste = url.split('/');
   urlDiv.innerHTML = `URL ATUAL: ${teste[teste.length - 1]}`;
-})()
+
+  divPneu = document.getElementById('mostraPneu');
+  quantidadePneu = localStorage.getItem('pneu')
+  divPneu.innerHTML = quantidadePneu;
+
+  divLona = document.getElementById('mostraLona');
+  quantidadeLona = localStorage.getItem('lona')
+  divLona.innerHTML = quantidadeLona;
+
+}
+)()
 let usuario = JSON.parse(localStorage.getItem('usuario'));
 
 function boasVindas(nome){
@@ -30,3 +40,5 @@ titulo2.addEventListener("mouseover", function(){
 titulo2.addEventListener("mouseout", function(){
   this.style.background = "white"
 })
+
+

@@ -26,9 +26,6 @@
           <a class="nav-link" href="#">Estoque</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Tabela de Preços</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="../frete/frete.html">Frete</a>
         </li>
       </ul>
@@ -41,31 +38,25 @@
   <main class="styleMain" style="display: grid;">
     
     <div class="cardk" style="padding: 20px">
-      <h2>Estoque</h2>
-      <div class="lineInput">
-        <label>Produto</label>
-        <input type="text" id="produtoAdd" placeholder="Nome do produto">
+    <h3>Estoque</h3>
+    <div class="row">
+      <div class="col">
+        <label>Informe a descrição: </label>
+        <input id="v" /><br>
       </div>
-      <div class="lineInput">
-        <label>Preço</label>
-        <input type="number" id="precoAdd" placeholder="Valor do produto">
+      <div class="col">
+        <label>Código produto:</label>
+        <select id="idProduto">
+          <option value="pneu">Pneu</option>
+          <option value="lona">Lona</option>
+        </select>
       </div>
-        
-      <button onclick="produto.salvar()" id="btnSalvar">Salvar</button>
-      <button onclick="produto.cancelar()">Cancelar</button>
     </div>
-   
-    <div class="content">
-      <table class="table-bordered">
-        <thead style="border: 1px solid black">
-          <th class="center">ID</th>
-          <th>Nome</th>
-          <th>Valor</th>
-          <th class="center">Ações</th>
-        </thead>
-        <tbody id="tdbody">
-        </tbody>
-      </table>
+      <br>
+    <button onclick="addItem()" style="margin-bottom: 5px;">Adicionar item</button><br>
+    <!-- <button onclick="showItems()" style="margin-bottom: 5px;">Show</button><br> -->
+    <button onclick="clearItems()" style="margin-bottom: 5px;">Limpar estoqu</button><br>
+    <div id="d"></div>
     </div>
     
   </main>
